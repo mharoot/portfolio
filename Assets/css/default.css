@@ -82,6 +82,6 @@ a {
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: block;
-    /* max-width: 20vw !important;displays 5 pictures */
-    height: auto;
+	width: calc(33.3333333vw - 2px);
+	    height: auto;
 }
