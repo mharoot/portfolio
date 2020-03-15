@@ -107,9 +107,10 @@ span.overlay:hover {
 	  background-color:rgba(0,0,0,0.44);
 }
 
-span.overlay a {
+span.overlay a,  span.overlay p{
 	color:#fff;
-    position: relative;
+	position: relative;
+	text-align: center;
     /* top: 33%; */
 	display: table;
     margin: 33% auto;

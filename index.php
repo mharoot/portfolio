@@ -15,6 +15,7 @@
         <script src="./Assets/js/modernizr.custom.js"></script>
         <link rel="stylesheet" type="text/css" href="./Assets/css/component.css">
         <link rel="stylesheet" type="text/css" href="./Assets/css/default.css">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 
 
@@ -43,7 +44,7 @@
                     </li>
                     <li>
                         <img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/warehouse1production-thumb.jpg">
-                        <span class="overlay"><a href="https://warehouse1productions.com/" target="_blank">WAREHOUSE 1 PRODUCTIONS</a></span>
+                        <span class="overlay"><p>WAREHOUSE 1 PRODUCTIONS</p><br><a href="https://warehouse1productions.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></span>
                     </li>
                 </ul>
         </div>
