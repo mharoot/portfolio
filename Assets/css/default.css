@@ -90,7 +90,7 @@ a {
 .overlay {
 	width:100%; 
 	height:100%;
-	z-index:0;
+	z-index:-9999;
   }
   
   .overlay span {
@@ -101,7 +101,7 @@ a {
 	top:33%;
   }
   
-  .overlay:hover  span {
+  .overlay:hover span {
 	display:block;
   }
   
