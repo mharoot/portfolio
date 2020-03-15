@@ -83,31 +83,42 @@ a {
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: block;
 	width: calc(33.3333333vw - 2px);
-	    height: auto;
+	height: auto;
 }
 
 
-.overlay {
+span.overlay {
 	width:100%; 
 	height:100%;
 	z-index:999;
-	display:none;
+	position: absolute;
+	top:0;
+	left:0;
+	opacity:0;
   }
   
-  .overlay span {
-	display:none;
-	text-align:center;
+  
+
+ .og-grid li {
+	 position: relative;
+ }
+span.overlay:hover {
+	  opacity:1;
+	  background-color:rgba(0,0,0,0.44);
+}
+
+span.overlay a {
 	color:#fff;
-	position:relative;
-	top:33%;
-  }
-  
-  li:hover .overlay span {
-	display:block;
-  }
-  
-  li:hover .overlay { 
-  background-color:rgba(0,0,0,0.63)}
+    position: relative;
+    /* top: 33%; */
+	display: table;
+    margin: 33% auto;
+}
+ span.overlay a:hover {
+	text-decoration: none;
+	color:white;
+}
+
 
 
 
