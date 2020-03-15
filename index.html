@@ -21,12 +21,12 @@
     <body>
         <div class="container">
                 <ul id="og-grid" class="og-grid">
-                        <li><img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/anabarsegian-thumb.jpg"></li>
-                        <li><img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/colepedroza-thumb.jpg"></li>
-                        <li><img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/cwcalifornia-thumb.jpg"></li>
-                        <li><img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/gogreensolar-thumb.jpg"></li>
-                        <li><img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/kristinmullertranscription-thumb.jpg"></li>
-                        <li><img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/warehouse1production-thumb.jpg"></li>
+                        <li><span class="overlay"><a href="https://www.anabarsegian.com/" target="_blank">LAW OFFICE OF ANA BARSEGIAN</a></span><img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/anabarsegian-thumb.jpg"></li>
+                        <li><span class="overlay"><a href="https://colepedroza.com/" target="_blank">COLE PEDROZA LAW</a></span><img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/colepedroza-thumb.jpg"></li>
+                        <li><span class="overlay"><a href="https://www.cwcalifornia.com/" target="_blank">CW California</a></span><img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/cwcalifornia-thumb.jpg"></li>
+                        <li><span class="overlay"><a href="http://hiregogreen.com/" target="_blank">GOGREEN SOLAR</a></span><img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/gogreensolar-thumb.jpg"></li>
+                        <li><span class="overlay"><a href="https://kristinmullertranscription.com/" target="_blank">KRISTIN MULLER TRANSCRIPTION SERVICES</a></span><img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/kristinmullertranscription-thumb.jpg"></li>
+                        <li><span class="overlay"><a href="https://warehouse1productions.com/" target="_blank">WAREHOUSE 1 PRODUCTIONS</a></span><img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/warehouse1production-thumb.jpg"></li>
                 </ul>
         </div>
     </body>
@@ -43,87 +43,3 @@
 let images = document.querySelectorAll(".img-responsive");
 new LazyLoad(images);
 </script>
-<style>
-
-
-
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-    display: table;
-    /* max-width: 20vw !important;displays 5 pictures */
-    height: auto;
-}
-.container {
-    width:100vw !important;
-    height:100vh !important;
-    padding: 0;
-}
-
-.og-grid{
-    margin-bottom:0px;
-}
-.og-grid li {
-    margin-bottom: -5px;
-    width: calc(33.3333333vw - 2px);
-}
-.ui-loader.ui-corner-all.ui-body-a.ui-loader-default{
-    display: none;
-}
-
-
-
-
-
-
-/* ipad pro held horizontally */
-@media(max-width:1366px) and (max-height:1024px){
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        display: table;
-        /* max-width: 25vw !important;displays 4 pictures */
-        height: auto;
-    }
-}
-/* ipad pro held vertically */
-@media(max-height:1366px) and (max-width:1024px){
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        display: table;
-        /* max-width: 33.3333vw !important;displays 3 pictures */
-        height: auto;
-    }
-}
-
-
-/* ipad held horizontally */
-@media(max-width:1024px) and (max-height:768px){
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        display: table;
-        /* max-width: 33.3333vw !important;displays 3 pictures */
-        height: auto;
-    }
-}
-/* ipad held vertically */
-@media(max-height:1024px) and (max-width:768px){
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        display: table;
-        /* max-width: 50vw !important;displays 2 pictures */
-        height: auto;
-    }
-}
-
-/* phones held horizontally */
-@media(max-width:823px) and (max-height:414px){
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        display: table;
-        /* max-width: 33.3333vw !important;displays 3 pictures */
-        height: auto;
-    }
-}
-
-/* phones held vertically */
-@media(max-height:823px) and (max-width:414px){
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        display: table;
-        /* max-width: 50vw !important;displays 2 pictures */
-        height: auto;
-    }
-}
-</style>
