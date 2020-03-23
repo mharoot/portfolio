@@ -23,29 +23,31 @@
         <div class="container">
                 <ul id="og-grid" class="og-grid">
                     <li>
-                        <img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/anabarsegian-thumb.jpg">
+                        <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/anabarsegian-thumb.jpg">
                         <span class="overlay"><a href="https://www.anabarsegian.com/" target="_blank">LAW OFFICE OF ANA BARSEGIAN</a></span>
                     </li>
                     <li>
-                        <img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/colepedroza-thumb.jpg">
+                        <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/colepedroza-thumb.jpg">
                         <span class="overlay"><a href="https://colepedroza.com/" target="_blank">COLE PEDROZA LAW</a></span>
                     </li>
                     <li>
-                        <img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/cwcalifornia-thumb.jpg">
+                        <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/cwcalifornia-thumb.jpg">
                         <span class="overlay"><a href="https://www.cwcalifornia.com/" target="_blank">CW California</a></span>
                     </li>
                     <li>
-                        <img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/gogreensolar-thumb.jpg">
+                        <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/gogreensolar-thumb.jpg">
                         <span class="overlay"><a href="http://hiregogreen.com/" target="_blank">GOGREEN SOLAR</a></span>
                     </li>
                     <li>
-                        <img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/kristinmullertranscription-thumb.jpg">
+                        <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/kristinmullertranscription-thumb.jpg">
                         <span class="overlay"><a href="https://kristinmullertranscription.com/" target="_blank">KRISTIN MULLER TRANSCRIPTION SERVICES</a></span>
                     </li>
-                    <li><img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/roseviewproductions-portfoilo-thumb.jpg"><span class="overlay"><a href="https://roseviewproductions.com/" target="_blank">ROSEVIEW PRODUCTIONS</a></span></li>
-
                     <li>
-                        <img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/warehouse1production-thumb.jpg">
+                        <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/roseviewproductions-portfoilo-thumb.jpg">
+                        <span class="overlay"><a href="https://roseviewproductions.com/" target="_blank">ROSEVIEW PRODUCTIONS</a></span>
+                    </li>
+                    <li>
+                        <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/warehouse1production-thumb.jpg">
                         <span class="overlay"><p>WAREHOUSE 1 PRODUCTIONS</p><a href="https://warehouse1productions.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></span>
                     </li>
                 </ul>
