@@ -23,7 +23,7 @@
     <body>
         <div class="container">
                 <ul id="og-grid" class="og-grid">
-                    <li>
+                    <li id="1">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/anabarsegian-thumb.jpg">
                         <span class="overlay">
                             <p>LAW OFFICE OF ANA BARSEGIAN</p>
@@ -31,7 +31,7 @@
                             <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/anabarsegian.png"></i>
                         </span>
                     </li>
-                    <li>
+                    <li id="2">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/colepedroza-thumb.jpg">
                         <span class="overlay">
                             <p>COLE PEDROZA LAW</p>
@@ -39,7 +39,7 @@
                             <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/colepedroza.jpg"></i>
                         </span>        
                    </li>
-                    <li>
+                    <li id="3">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/cwcalifornia-thumb.jpg">
                         <span class="overlay">
                             <p>CW California</p>
@@ -47,7 +47,7 @@
                             <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/cwcalifornia.jpg"></i>
                         </span>   
                     </li>
-                    <li>
+                    <li id="4">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/elkcreekcamp-thumb.png">
                         <span class="overlay">  
                             <p>Elk Creek Camp</p>
@@ -55,7 +55,7 @@
                             <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/elkcreekcamp.jpg"></i>
                         </span>   
                         </li>
-                    <li>
+                    <li id="5">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/gogreensolar-thumb.jpg">
                         <span class="overlay">  
                             <p>GOGREEN SOLAR</p>
@@ -63,7 +63,7 @@
                             <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/gogreensolar.jpg"></i>
                         </span>   
                     </li>
-                    <li>
+                    <li id="6">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/kristinmullertranscription-thumb.jpg">
                         <span class="overlay">
                             <p>KRISTIN MULLER TRANSCRIPTION SERVICES</p>
@@ -71,7 +71,7 @@
                             <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/kristinmullertranscription.jpg"></i>
                         </span>   
                     </li>
-                    <li>
+                    <li id="7">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/roseviewproductions-portfoilo-thumb.jpg">
                         <span class="overlay">
                             <p>ROSEVIEW PRODUCTIONS<</p>
@@ -79,7 +79,7 @@
                             <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/roseviewproductions-portfolio-website.jpg"></i>
                         </span>                   
                     </li>
-                    <li>
+                    <li id="8">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/warehouse1production-thumb.jpg">
                         <span class="overlay">
                             <p>WAREHOUSE 1 PRODUCTIONS</p>
@@ -93,9 +93,10 @@
             <img src="">
             <div id="big-image-preview-title"></div>
             <div id="navigation">
-                <div class="left"></div>
-                <div class="right"></div>
+                <div class="fa fa-5x left"></div>
+                <div class="fa fa-5x right"></div>
             </div>
+            <a id="visit-website-btn" class="btn btn-primary" target="_blank" href="">Visit Website</a>
         </div>
     </body>
 
@@ -111,57 +112,4 @@
 let images = document.querySelectorAll(".img-responsive");
 new LazyLoad(images);
 </script>
-<script>
-$(document).ready(function(){
-    let src = "";
-    let title = "";
-    let $body = $('body');
-    let $bigImage = $('#big-image-preview');
-    let $bigImageTitle = $('#big-image-preview-title');
-    let $bigImageImage = $bigImage.find('img')[0];
-    let $ogGrid = $('#og-grid');
-    let position = 1;
-
-    let $prev = $('#navigation .left');
-    let $next = $('#navigation .right');
-
-    $('.fa-picture-o').on('click',function(e){
-        src = this.getAttribute('data-src');
-        title = $(this).prev().prev()[0].innerHTML
-        // let img = document.createElement('img');
-        // img.src = src;
-        $bigImageImage.src = src;
-        $bigImageTitle[0].innerHTML =title;
-        $bigImage.show();
-        $body.toggleClass('overflow');
-
-    });
-    $bigImage.on('click', function(e){
-        $bigImage.hide();
-        $body.toggleClass('overflow');
-    });
-    $prev.on('click',function(e){
-        var key = "";
-        if ( position == 1 ) {
-            position = 8;
-            key = $ogGrid.find('li:last-child')[0];
-        } else {
-            position--;
-            key = $ogGrid.find('li:nth-child('+position+')')[0];
-        }
-        console.log(key);
-    });
-    $next.on('click',function(e){
-        var key = "";
-        if ( position == 8 ) {
-            position = 1;
-            key = $ogGrid.find('li:first-child')[0];
-        }  else {
-            position++
-            key = $ogGrid.find('li:nth-child('+position+')')[0];
-        }
-        console.log(key);
-    });
-    
-});
-</script>
+<script src="./Assets/js/portfolio.js"></script>

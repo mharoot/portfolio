@@ -114,7 +114,7 @@ span.overlay a,  span.overlay p{
 	top: 33%;
 	display: table !important;
 	margin: 0px !important;
-	font-size: 200%;
+	font-size: 180%;
     font-weight: 500;
     letter-spacing: 1px;
 	
@@ -302,7 +302,7 @@ display:block !important;
 	#big-image-preview img {
 		/* display: table;
 		margin: 33% 12.5%; */
-		width: 80%;
+		width: 60%;
 		max-width: 1250px;
 		/* top: 25vw; */
 		position: fixed;
@@ -359,20 +359,46 @@ display:block !important;
 
 #big-image-preview-title {
 	color:#fff;
-	font-size:200%;
+	font-size:180%;
 	text-align:center;
 	font-weight:600;
 	position: relative;
+	background-color: #000;
 }
 
 #navigation .left, #navigation .right {
+	z-index:1000 !important;
 	position: fixed;
 	top:50%;
-	width:50px; 
-	height:50px;
-	background-color:red;
+	background-color:rgba(0,0,0,0.84);
+	/* padding:15px 15px 15px 15px; */
+	/* width:50px; 
+	height:50px; */
+	/* background-color:red; */
 }
 
 #navigation .right {
 	right:0%;
+}
+
+#navigation .right:before{
+	color:white;
+	/* background-color:rgba(0,0,0,0.84); */
+	content: "\f105";
+}
+
+
+#navigation .left:before{
+	content: "\f104";
+	color:white;
+	/* background-color:rgba(0,0,0,0.84); */
+}
+
+#visit-website-btn{
+	position: absolute;
+	bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	left: 50% !important;
+	transform: translate(-50%, 0);
 }
