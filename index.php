@@ -42,9 +42,11 @@
                         <img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/kristinmullertranscription-thumb.jpg">
                         <span class="overlay"><a href="https://kristinmullertranscription.com/" target="_blank">KRISTIN MULLER TRANSCRIPTION SERVICES</a></span>
                     </li>
+                    <li><img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/roseviewproductions-portfoilo-thumb.jpg"><span class="overlay"><a href="https://roseviewproductions.com/" target="_blank">ROSEVIEW PRODUCTIONS</a></span></li>
+
                     <li>
                         <img width="380" height="200" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/warehouse1production-thumb.jpg">
-                        <span class="overlay"><p>WAREHOUSE 1 PRODUCTIONS</p><br><a href="https://warehouse1productions.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></span>
+                        <span class="overlay"><p>WAREHOUSE 1 PRODUCTIONS</p><a href="https://warehouse1productions.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></span>
                     </li>
                 </ul>
         </div>
