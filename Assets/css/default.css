@@ -107,7 +107,7 @@ span.overlay:hover {
 	  background-color:rgba(0,0,0,0.44);
 }
 
-span.overlay a,  span.overlay p{
+.fa-picture-o:before, span.overlay a,  span.overlay p{
 	color:#fff;
 	position: relative;
 	text-align: center;
@@ -122,11 +122,11 @@ span.overlay a,  span.overlay p{
 span.overlay p{
 display:block !important;
 }
-
-@media(max-width:1300px){span.overlay a,  span.overlay p{font-size: 150%;}}
-@media(max-width:1000px){span.overlay a,  span.overlay p{font-size: 125%;}}
-@media(max-width:768px){span.overlay a,  span.overlay p{font-size: 125%;}}
-@media(max-width:430px){span.overlay a,  span.overlay p{font-size: 100%;}}
+ 
+@media(max-width:1300px){.fa-picture-o:before,span.overlay a,  span.overlay p{font-size: 150%;}}
+@media(max-width:1000px){.fa-picture-o:before, span.overlay a,  span.overlay p{font-size: 125%;}}
+@media(max-width:768px){.fa-picture-o:before, span.overlay a,  span.overlay p{font-size: 125%;}}
+@media(max-width:430px){.fa-picture-o:before, span.overlay a,  span.overlay p{font-size: 100%;}}
 
 
 
