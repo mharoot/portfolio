@@ -42,7 +42,7 @@
                     <li id="3">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/cwcalifornia-thumb.jpg">
                         <span class="overlay">
-                            <p>CW California</p>
+                            <p>CW CALIFORNIA</p>
                             <a href="https://www.cwcalifornia.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
                             <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/cwcalifornia.jpg"></i>
                         </span>   
