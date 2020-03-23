@@ -402,3 +402,48 @@ display:block !important;
 	left: 50% !important;
 	transform: translate(-50%, 0);
 }
+@media (min-width: 1367px){
+	.fa-picture-o:before {
+		margin-top: -8px !important;
+		margin-left: 6px !important;
+	}
+}
+@media (max-width: 1366px){
+	.fa-picture-o:before {
+		margin-top: -14px !important;
+    	margin-left: 0px !important;
+	}
+}
+@media (max-width: 1300px){
+	.fa-picture-o:before {
+		margin-top: -14px !important;
+		margin-left: 6px !important;
+	}
+}
+
+@media (max-width: 1024px){
+	.fa-picture-o:before {
+		margin-top: -14px !important;
+		margin-left: 6px !important;
+	}
+}
+
+@media (max-width: 768px){
+	.fa-photo:before, .fa-image:before, .fa-picture-o:before {
+		margin-top: 0px !important;
+		margin-left: 6px !important;
+	}
+}
+	
+@media (max-width: 568px){
+	.fa-photo:before, .fa-image:before, .fa-picture-o:before {
+		margin-top: -11px !important;
+		margin-left: 6px !important;
+	}
+}
+@media (max-width: 430px){
+	.fa-photo:before, .fa-image:before, .fa-picture-o:before {
+		margin-top: 0px !important;
+		margin-left: -7px !important;
+	}
+}
