@@ -243,13 +243,13 @@ display:block !important;
 
 
 .ui-link {
-	left: 33% !important;
+	left: 36% !important;
 }
 
 .fa-picture-o{
 	position: relative;
     display: table !important;
-    left: 46% !important;
+    left: 50% !important;
     top: 20% !important;
     width: auto;
     color: #fff;
