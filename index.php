@@ -48,12 +48,12 @@
                         </span>   
                     </li>
                     <li>
-                            <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/elkcreekcamp-thumb.png">
-                            <span class="overlay">  
-                                <p>Elk Creek Camp</p>
-                                <a href="http://elkcreekcamp.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                                <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/elkcreekcamp.jpg"></i>
-                            </span>   
+                        <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/elkcreekcamp-thumb.png">
+                        <span class="overlay">  
+                            <p>Elk Creek Camp</p>
+                            <a href="http://elkcreekcamp.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/elkcreekcamp.jpg"></i>
+                        </span>   
                         </li>
                     <li>
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/gogreensolar-thumb.jpg">
@@ -89,7 +89,14 @@
                     </li>
                 </ul>
         </div>
-        <div id="big-image-preview" style="display:none;"><img src=""></img></div>
+        <div id="big-image-preview" style="display:none;">
+            <img src="">
+            <div id="big-image-preview-title"></div>
+            <div id="navigation">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+        </div>
     </body>
 
 
@@ -107,13 +114,24 @@ new LazyLoad(images);
 <script>
 $(document).ready(function(){
     let src = "";
+    let title = "";
     let $body = $('body');
     let $bigImage = $('#big-image-preview');
+    let $bigImageTitle = $('#big-image-preview-title');
+    let $bigImageImage = $bigImage.find('img')[0];
+    let $ogGrid = $('#og-grid');
+    let position = 1;
+
+    let $prev = $('#navigation .left');
+    let $next = $('#navigation .right');
+
     $('.fa-picture-o').on('click',function(e){
         src = this.getAttribute('data-src');
+        title = $(this).prev().prev()[0].innerHTML
         // let img = document.createElement('img');
         // img.src = src;
-        $bigImage.find('img')[0].src = src;
+        $bigImageImage.src = src;
+        $bigImageTitle[0].innerHTML =title;
         $bigImage.show();
         $body.toggleClass('overflow');
 
@@ -121,6 +139,28 @@ $(document).ready(function(){
     $bigImage.on('click', function(e){
         $bigImage.hide();
         $body.toggleClass('overflow');
+    });
+    $prev.on('click',function(e){
+        var key = "";
+        if ( position == 1 ) {
+            position = 8;
+            key = $ogGrid.find('li:last-child')[0];
+        } else {
+            position--;
+            key = $ogGrid.find('li:nth-child('+position+')')[0];
+        }
+        console.log(key);
+    });
+    $next.on('click',function(e){
+        var key = "";
+        if ( position == 8 ) {
+            position = 1;
+            key = $ogGrid.find('li:first-child')[0];
+        }  else {
+            position++
+            key = $ogGrid.find('li:nth-child('+position+')')[0];
+        }
+        console.log(key);
     });
     
 });
