@@ -48,6 +48,14 @@
                         </span>   
                     </li>
                     <li>
+                            <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/elkcreekcamp-thumb.png">
+                            <span class="overlay">  
+                                <p>Elk Creek Camp</p>
+                                <a href="http://elkcreekcamp.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                                <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/elkcreekcamp.jpg"></i>
+                            </span>   
+                        </li>
+                    <li>
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/gogreensolar-thumb.jpg">
                         <span class="overlay">  
                             <p>GOGREEN SOLAR</p>
