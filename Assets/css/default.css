@@ -282,3 +282,33 @@ display:block !important;
 .overflow {
 	overflow: hidden;
 }
+
+@media(max-width:500px){
+	#big-image-preview img {
+		display: table;
+		margin: 33% 12.5%;
+		width: 75vw;
+		max-width: 1250px;
+		top: 25vw;
+	}
+}
+
+@media(max-width:375px){
+	#big-image-preview img {
+		display: table;
+		margin: 33% 12.5%;
+		width: 75vw;
+		max-width: 1250px;
+		top: 25vw;
+	}
+}
+
+@media(max-width:320px){
+	#big-image-preview img {
+		display: table;
+		margin: 33% 12.5%;
+		width: 75vw;
+		max-width: 1250px;
+		top: 25vw;
+	}
+}
