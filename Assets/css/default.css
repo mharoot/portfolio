@@ -404,7 +404,7 @@ display:block !important;
 }
 @media (min-width: 1367px){
 	.fa-picture-o:before {
-		margin-top: -8px !important;
+		margin-top: -14px !important;
 		margin-left: 6px !important;
 	}
 }
