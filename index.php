@@ -54,8 +54,16 @@
                             <a href="http://elkcreekcamp.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
                             <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/elkcreekcamp.jpg"></i>
                         </span>   
-                        </li>
+                    </li>
                     <li id="5">
+                        <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/fortunemedia-thumb.png">
+                        <span class="overlay">  
+                            <p>Fortune Media</p>
+                            <a href="https://fortune-media.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/fortunemedia.jpg"></i>
+                        </span>   
+                    </li>
+                    <li id="6">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/gogreensolar-thumb.jpg">
                         <span class="overlay">  
                             <p>GOGREEN SOLAR</p>
@@ -63,7 +71,7 @@
                             <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/gogreensolar.jpg"></i>
                         </span>   
                     </li>
-                    <li id="6">
+                    <li id="7">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/kristinmullertranscription-thumb.jpg">
                         <span class="overlay">
                             <p>KRISTIN MULLER TRANSCRIPTION SERVICES</p>
@@ -71,7 +79,7 @@
                             <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/kristinmullertranscription.jpg"></i>
                         </span>   
                     </li>
-                    <li id="7">
+                    <li id="8">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/roseviewproductions-portfoilo-thumb.jpg">
                         <span class="overlay">
                             <p>ROSEVIEW PRODUCTIONS</p>
@@ -79,7 +87,7 @@
                             <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/roseviewproductions-portfolio-website.jpg"></i>
                         </span>                   
                     </li>
-                    <li id="8">
+                    <li id="9">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/warehouse1production-thumb.jpg">
                         <span class="overlay">
                             <p>WAREHOUSE 1 PRODUCTIONS</p>
