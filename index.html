@@ -56,7 +56,7 @@
                         </span>   
                     </li>
                     <li id="5">
-                        <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/fortunemedia-thumb.png">
+                        <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/fortunemedia-thumb.jpg">
                         <span class="overlay">  
                             <p>Fortune Media</p>
                             <a href="https://fortune-media.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
