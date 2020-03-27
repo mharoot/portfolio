@@ -129,7 +129,9 @@ span.overlay:hover {
 @media(max-width:768px){.fa-2x {font-size: 1.25em !important;}}
 @media(max-width:430px){.fa-2x {font-size: 1em !important;}}
 
-
+.fa-picture-o:hover {
+    cursor: pointer;
+}
 
 .fa-picture-o:before, .fa-link:before, span.overlay a{
 	color:#fff;
