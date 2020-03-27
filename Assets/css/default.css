@@ -405,15 +405,18 @@ span.overlay p{
 	z-index:1000 !important;
 	position: fixed;
 	top:50%;
-	background-color:rgba(0,0,0,0.84);
-	/* padding:15px 15px 15px 15px; */
-	/* width:50px; 
-	height:50px; */
-	/* background-color:red; */
+    background-color:rgba(0,0,0,0.84);
+}
+#navigation .left:hover, #navigation .right:hover {
+    cursor: pointer;
 }
 
 #navigation .right {
-	right:0%;
+    right:0%;
+    padding: 0px 15px 0px 25px;
+}
+#navigation .left {
+    padding: 0px 25px 0px 15px;
 }
 
 #navigation .right:before{
