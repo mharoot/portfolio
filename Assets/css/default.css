@@ -320,8 +320,14 @@ span.overlay p{
 
 @media(min-width:1351px){
     #big-image-preview img {
-        width: 100%;
+        width: 60%;
         max-width: 1250px;
+        		/* top: 25vw; */
+		position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
         /* top: 25vw; */
         /* position: fixed; */
         /* top: 50%; */
