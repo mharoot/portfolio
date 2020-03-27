@@ -89,12 +89,12 @@
                         </span>   
                     </li>
                     <li id="8">
-                        <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/roseviewproductions-portfoilo-thumb.jpg">
+                        <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/roseview-thumb.jpg">
                         <span class="overlay">
                             <p>ROSEVIEW PRODUCTIONS</p>
                             <div class="overlay-links">
                             <a href="https://roseviewproductions.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/roseviewproductions-portfolio-website.jpg"></i></div>
+                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/roseview.jpg"></i></div>
                         </span>                   
                     </li>
                     <li id="9">
