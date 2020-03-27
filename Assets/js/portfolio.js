@@ -36,7 +36,8 @@ $(document).ready(function(){
 
     $portfolioSinglePrevBtns.on('click',function(e){
         src = this.getAttribute('data-src');
-        title = $(this).prev().prev()[0].innerHTML
+
+        title = $(this).parent().prev()[0].innerHTML
         sitePrevImg.src = src;
         $sitePrevTitle[0].innerHTML = title;
         $sitePrevImgWrapper.show();

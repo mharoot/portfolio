@@ -27,72 +27,82 @@
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/anabarsegian-thumb.jpg">
                         <span class="overlay">
                             <p>LAW OFFICE OF ANA BARSEGIAN</p>
-                            <a href="https://www.anabarsegian.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/anabarsegian.png"></i>
+                            <div class="overlay-links">
+                                <a href="https://www.anabarsegian.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                                <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/anabarsegian.png"></i>
+                            </div>
                         </span>
                     </li>
                     <li id="2">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/colepedroza-thumb.jpg">
                         <span class="overlay">
                             <p>COLE PEDROZA LAW</p>
-                            <a href="https://colepedroza.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/colepedroza.jpg"></i>
+                            <div class="overlay-links">
+                                <a href="https://colepedroza.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                                <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/colepedroza.jpg"></i>
+                            </div>
                         </span>        
                    </li>
                     <li id="3">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/cwcalifornia-thumb.jpg">
                         <span class="overlay">
                             <p>CW CALIFORNIA</p>
-                            <a href="https://www.cwcalifornia.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/cwcalifornia.jpg"></i>
+                            <div class="overlay-links">
+                                <a href="https://www.cwcalifornia.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                                <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/cwcalifornia.jpg"></i>
+                            </div>
                         </span>   
                     </li>
                     <li id="4">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/elkcreekcamp-thumb.png">
                         <span class="overlay">  
                             <p>Elk Creek Camp</p>
-                            <a href="http://elkcreekcamp.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/elkcreekcamp.jpg"></i>
+                            <div class="overlay-links">
+                                <a href="http://elkcreekcamp.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                                <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/elkcreekcamp.jpg"></i>
+                            </div>
                         </span>   
                     </li>
                     <li id="5">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/fortunemedia-thumb.jpg">
                         <span class="overlay">  
-                            <p>Fortune Media</p>
+                            <p>Fortune Media</p><div class="overlay-links">
                             <a href="https://fortune-media.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/fortunemedia.jpg"></i>
+                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/fortunemedia.jpg"></i></div>
                         </span>   
                     </li>
                     <li id="6">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/gogreensolar-thumb.jpg">
                         <span class="overlay">  
-                            <p>GOGREEN SOLAR</p>
+                            <p>GOGREEN SOLAR</p><div class="overlay-links">
                             <a href="http://hiregogreen.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/gogreensolar.jpg"></i>
+                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/gogreensolar.jpg"></i></div>
                         </span>   
                     </li>
                     <li id="7">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/kristinmullertranscription-thumb.jpg">
                         <span class="overlay">
                             <p>KRISTIN MULLER TRANSCRIPTION SERVICES</p>
+                            <div class="overlay-links">
                             <a href="https://kristinmullertranscription.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/kristinmullertranscription.jpg"></i>
+                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/kristinmullertranscription.jpg"></i></div>
                         </span>   
                     </li>
                     <li id="8">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/roseviewproductions-portfoilo-thumb.jpg">
                         <span class="overlay">
                             <p>ROSEVIEW PRODUCTIONS</p>
+                            <div class="overlay-links">
                             <a href="https://roseviewproductions.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/roseviewproductions-portfolio-website.jpg"></i>
+                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/roseviewproductions-portfolio-website.jpg"></i></div>
                         </span>                   
                     </li>
                     <li id="9">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/warehouse1production-thumb.jpg">
                         <span class="overlay">
-                            <p>WAREHOUSE 1 PRODUCTIONS</p>
+                            <p>WAREHOUSE 1 PRODUCTIONS</p><div class="overlay-links">
                             <a href="https://warehouse1productions.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
-                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/warehouse1production.jpg"></i>
+                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/warehouse1production.jpg"></i></div>
                         </span>
                     </li>
                 </ul>
