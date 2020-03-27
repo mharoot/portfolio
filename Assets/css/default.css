@@ -402,7 +402,15 @@ display:block !important;
 	left: 50% !important;
 	transform: translate(-50%, 0);
 }
-@media (min-width: 1367px){
+
+@media (min-width: 1451px){
+	.fa-picture-o:before {
+		margin-top: 2vw !important;
+		margin-left: 6px !important;
+	}
+}
+
+@media (max-width: 1450px){
 	.fa-picture-o:before {
 		margin-top: 10px !important;
 		margin-left: 6px !important;
