@@ -319,18 +319,15 @@ span.overlay p{
 }
 
 @media(min-width:1351px){
-	#big-image-preview img {
-		/* display: table;
-		margin: 33% 12.5%; */
-		width: 100%;
-		max-width: 1250px;
-		/* top: 25vw; */
-		position: fixed;
-	top: 50%;
-	left: 50%;
-	/* bring your own prefixes */
-	transform: translate(-50%, -50%);
-	}
+    #big-image-preview img {
+        width: 100%;
+        max-width: 1250px;
+        /* top: 25vw; */
+        /* position: fixed; */
+        /* top: 50%; */
+        /* left: 50%; */
+        /* transform: translate(-50%, -50%); */
+    }
 }
 
 @media(max-width:1350px){
