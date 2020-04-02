@@ -2,7 +2,9 @@
 @import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
 
 
-
+#big-image-preview-title {
+	text-transform: uppercase;
+}
 
 .overlay-links {
         color:#fff;
