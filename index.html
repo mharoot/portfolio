@@ -97,6 +97,15 @@
                             <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/roseview.jpg"></i></div>
                         </span>                   
                     </li>
+                    <li id="8">
+                        <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/pexsuperstore-thumb.jpg">
+                        <span class="overlay">
+                            <p>PEX Superstore</p>
+                            <div class="overlay-links">
+                            <a href="https://pexsuperstore.com/" target="_blank"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                            <i class="fa fa-picture-o fa-2x" aria-hidden="true" data-src="./Assets/images/pexsuperstore.jpg"></i></div>
+                        </span>                   
+                    </li>
                     <li id="9">
                         <img width="380"height="280" class="img-responsive" src="./Assets/images/loading.gif" data-src="./Assets/images/warehouse1production-thumb.jpg">
                         <span class="overlay">
